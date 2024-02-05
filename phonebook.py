@@ -2,13 +2,8 @@ import time
 def main_menu():
     print("PHONEBOOK")
     print("================================")
-    print("What would you like to do?")
-    print("1. Show all contact ")
-    print("2. Add new contact ")
-    print("3. Delete contact ")
-    print("4. Search contact ")
-    print("5. Update contact ")
-    print("6. Exit ")
+    print("What would you like to do? (❁´◡`❁)📖")
+    print("1. Show all contact\n2. Add new contact\n3. Delete contact\n4. Search contact\n5. Update contact\n6. Exit ")
     print("================================")
 
 
