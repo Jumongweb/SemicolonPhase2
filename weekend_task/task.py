@@ -21,10 +21,6 @@ def task3(value):
     return new_list
 
 
-print(task2(my_list))
-print(task3(task2(my_list)))
-
-
 def task4(value):
     count = 0
     sum = 0
@@ -35,17 +31,14 @@ def task4(value):
     return sum
 
 
-print(task4(my_list))
-
-
 def task5(value):
     sum = 0
     if len(value) % 2 == 1:
-        middle_number = len(value) // 2
+        middle_number = len(value) // 2 + 1
         sum += value[0] + value[middle_number] + value[-1]
     else:
         first_middle_number = len(value) // 2
-        second_middle_number = len(value) // 2 - 1
+        second_middle_number = len(value) // 2 + 1
         print(value[0])
         print(first_middle_number)
         print(second_middle_number)
@@ -53,5 +46,10 @@ def task5(value):
         sum += value[0] + value[first_middle_number] + value[second_middle_number] + value[-1]
     return sum
 
-print(task5(my_list))
+def task6(value):
+    elements = set()
+    for i in range(len(value)):
+        elements.add(value[i])
+    return elements
 
+task5(my_list)
