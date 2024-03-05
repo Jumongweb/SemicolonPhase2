@@ -1,0 +1,5 @@
+Hello World!
+This is the first time am using write function
+Done
+ This is amazing, i can add to the end of this file
+And also do the under it

@@ -1,2 +1,0 @@
-class Exemption:
-    InvalidAmountException(Exemption):
