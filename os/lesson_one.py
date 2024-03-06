@@ -9,5 +9,7 @@ os.chdir("/Users/DELL/PycharmProjects/pythonProject1/SemicolonPhase2/exc")
 # with open("text_one.txt", "w") as f:
 #     f.write("Hello, where are you, how are you?")
 
-# directories
-print(os.listdir("/Users/DELL/PycharmProjects/pythonProject1/SemicolonPhase2/exc"))
+# show directories in a folder
+# print(os.listdir("/Users/DELL/PycharmProjects/pythonProject1/SemicolonPhase2/exc"))
+
+print(os.listdir("exc"))
