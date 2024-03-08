@@ -12,14 +12,14 @@ def print_game(board):
 
 
 player_one_symbol = 'X'
-#player_two_symbol = 'O'
+# player_two_symbol = 'O'
 # def prompt_player():
 #     player_one_move = input("Player_one. Enter your move: ")
 #     player_two_move = input("player_two. Enter your move: ")
 player_move = input('Enter your move: ').upper()
 
-def mark_board(board, player_symbol):
 
+def mark_board(board, player_symbol):
     try:
         match player_move:
             case 1:
